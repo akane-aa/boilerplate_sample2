@@ -6,7 +6,7 @@ module.exports = {
     "extends": [
     "eslint:recommended",
     "plugin:vue/recommended"
-    ],  
+    ],
     "parserOptions": {
         "ecmaVersion": 2015
     },
@@ -26,6 +26,8 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-console": "off",
+        "no-undef": "off"
     }
 };
